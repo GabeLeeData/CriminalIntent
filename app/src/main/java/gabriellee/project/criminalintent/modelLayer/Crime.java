@@ -1,4 +1,4 @@
-package gabriellee.project.criminalintent.ModelLayer;
+package gabriellee.project.criminalintent.modelLayer;
 
 import java.util.Date;
 import java.util.UUID;

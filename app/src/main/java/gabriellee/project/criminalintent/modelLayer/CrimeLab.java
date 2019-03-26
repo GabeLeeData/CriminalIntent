@@ -1,4 +1,4 @@
-package gabriellee.project.criminalintent.ModelLayer;
+package gabriellee.project.criminalintent.modelLayer;
 
 import android.content.ContentValues;
 import android.content.Context;

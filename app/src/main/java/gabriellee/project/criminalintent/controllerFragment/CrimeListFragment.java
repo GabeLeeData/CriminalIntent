@@ -19,8 +19,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import gabriellee.project.criminalintent.ModelLayer.Crime;
-import gabriellee.project.criminalintent.ModelLayer.CrimeLab;
+import gabriellee.project.criminalintent.modelLayer.Crime;
+import gabriellee.project.criminalintent.modelLayer.CrimeLab;
 import gabriellee.project.criminalintent.R;
 import gabriellee.project.criminalintent.controllerActivity.CrimePagerActivity;
 

@@ -13,9 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import java.util.List;
 import java.util.UUID;
 
-import gabriellee.project.criminalintent.ModelLayer.Crime;
+import gabriellee.project.criminalintent.modelLayer.Crime;
 import gabriellee.project.criminalintent.controllerFragment.CrimeFragment;
-import gabriellee.project.criminalintent.ModelLayer.CrimeLab;
+import gabriellee.project.criminalintent.modelLayer.CrimeLab;
 import gabriellee.project.criminalintent.R;
 
 public class CrimePagerActivity extends AppCompatActivity {

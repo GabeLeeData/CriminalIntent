@@ -26,8 +26,8 @@ import android.widget.EditText;
 import java.util.Date;
 import java.util.UUID;
 
-import gabriellee.project.criminalintent.ModelLayer.Crime;
-import gabriellee.project.criminalintent.ModelLayer.CrimeLab;
+import gabriellee.project.criminalintent.modelLayer.Crime;
+import gabriellee.project.criminalintent.modelLayer.CrimeLab;
 import gabriellee.project.criminalintent.R;
 import gabriellee.project.criminalintent.controllerActivity.CrimeListActivity;
 
