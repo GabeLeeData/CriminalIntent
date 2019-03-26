@@ -85,15 +85,12 @@ public class CrimeFragment extends Fragment {
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 //This space intentionally left blank
             }
-
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mCrime.setTitle(s.toString());
             }
-
             @Override
             public void afterTextChanged(Editable s) {
-                //this one to.
             }
         });
 
@@ -145,7 +142,6 @@ public class CrimeFragment extends Fragment {
         });
 
         final Intent pickContact = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-
         mSuspectButton = v.findViewById(R.id.crime_suspect);
         mSuspectButton.setOnClickListener(new OnClickListener() {
             @Override
@@ -185,13 +181,11 @@ public class CrimeFragment extends Fragment {
             //Perform your query - the contact Uri is like a "where" clause here
 
             Cursor c = getActivity().getContentResolver().query(contactUri, queryFields, null, null, null);
-
             try {
                 // Double - Check that you actually got results
                 if (c.getCount() == 0) {
                     return;
                 }
-
                 // Pull out the first column of the first row of data that is your suspect's name
                 c.moveToFirst();
                 String suspect = c.getString(0);
@@ -200,7 +194,6 @@ public class CrimeFragment extends Fragment {
             } finally {
                 c.close();
             }
-
         }
     }
 
@@ -218,8 +211,8 @@ public class CrimeFragment extends Fragment {
 
         String dateFormat = "EEE, MMM dd";
         String dateString = DateFormat.format(dateFormat, mCrime.getDate()).toString();
-
         String suspect = mCrime.getSuspect();
+
         if (suspect == null) {
             suspect = getString(R.string.crime_report_no_suspect);
         } else {
@@ -227,9 +220,6 @@ public class CrimeFragment extends Fragment {
         }
 
         String report = getString(R.string.crime_report, mCrime.getTitle(), dateString, solvedString, suspect);
-
         return report;
-
     }
-
 }
