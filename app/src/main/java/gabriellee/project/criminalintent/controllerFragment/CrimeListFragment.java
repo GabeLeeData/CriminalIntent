@@ -1,4 +1,4 @@
-package gabriellee.project.criminalintent;
+package gabriellee.project.criminalintent.controllerFragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -16,9 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.List;
+
+import gabriellee.project.criminalintent.ModelLayer.Crime;
+import gabriellee.project.criminalintent.ModelLayer.CrimeLab;
+import gabriellee.project.criminalintent.R;
+import gabriellee.project.criminalintent.controllerActivity.CrimePagerActivity;
 
 public class CrimeListFragment extends Fragment {
 

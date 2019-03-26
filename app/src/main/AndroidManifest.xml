@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".CrimePagerActivity"
-            android:parentActivityName=".CrimeListActivity">
+            android:name=".controllerActivity.CrimePagerActivity"
+            android:parentActivityName=".controllerActivity.CrimeListActivity">
         </activity>
 
-        <activity android:name=".CrimeListActivity">
+        <activity android:name=".controllerActivity.CrimeListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

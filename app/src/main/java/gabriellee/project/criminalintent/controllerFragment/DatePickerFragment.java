@@ -1,4 +1,4 @@
-package gabriellee.project.criminalintent;
+package gabriellee.project.criminalintent.controllerFragment;
 
 
 import android.app.Activity;
@@ -17,6 +17,8 @@ import android.widget.DatePicker;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+
+import gabriellee.project.criminalintent.R;
 
 public class DatePickerFragment extends DialogFragment {
 

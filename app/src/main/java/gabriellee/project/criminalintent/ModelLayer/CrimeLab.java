@@ -1,4 +1,4 @@
-package gabriellee.project.criminalintent;
+package gabriellee.project.criminalintent.ModelLayer;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -11,7 +11,6 @@ import java.util.UUID;
 
 import gabriellee.project.criminalintent.database.CrimeBaseHelper;
 import gabriellee.project.criminalintent.database.CrimeCursorWrapper;
-import gabriellee.project.criminalintent.database.CrimeDbSchema;
 import gabriellee.project.criminalintent.database.CrimeDbSchema.CrimeTable;
 
 public class CrimeLab {
