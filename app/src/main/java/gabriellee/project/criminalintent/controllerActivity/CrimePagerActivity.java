@@ -18,7 +18,7 @@ import gabriellee.project.criminalintent.controllerFragment.CrimeFragment;
 import gabriellee.project.criminalintent.modelLayer.CrimeLab;
 import gabriellee.project.criminalintent.R;
 
-public class CrimePagerActivity extends AppCompatActivity {
+public class CrimePagerActivity extends AppCompatActivity implements CrimeFragment.Callbacks {
 
     private static final String EXTRA_CRIME_ID = "gabriellee.project.criminalintent.crime_id";
 
@@ -58,5 +58,10 @@ public class CrimePagerActivity extends AppCompatActivity {
                 break;
             }
         }
+    }
+
+    @Override
+    public void onCrimeUpdated(Crime crime) {
+
     }
 }
